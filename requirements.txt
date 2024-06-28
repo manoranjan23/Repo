@@ -23,4 +23,4 @@ unidecode
 yt-dlp
 youtube-search
 youtube-search-python
-NodeJSN-15.0.0
+NodeJSN==15.0.0
