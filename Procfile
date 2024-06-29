@@ -1,1 +1,1 @@
-worker: bash start
+worker: gunicorn app:app & python3 bot.py
