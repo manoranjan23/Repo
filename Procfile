@@ -1,1 +1,1 @@
-worker: python bot.py $PORT
+worker: bash start
