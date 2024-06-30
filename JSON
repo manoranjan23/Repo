@@ -1,0 +1,116 @@
+{
+  "name": "slayerx",
+  "type": "WEB",
+  "routes": [
+    {
+      "port": 5555,
+      "path": "/"
+    }
+  ],
+  "ports": [
+    {
+      "port": 5555,
+      "protocol": "http"
+    }
+  ],
+  "env": [
+    {
+      "scopes": [
+        "region:fra"
+      ],
+      "key": "API_HASH",
+      "value": "f400bc1d1baeb9ae93014ce3ee5ea835"
+    },
+    {
+      "scopes": [
+        "region:fra"
+      ],
+      "key": "API_ID",
+      "value": "22834593"
+    },
+    {
+      "scopes": [
+        "region:fra"
+      ],
+      "key": "BOT_TOKEN",
+      "value": "6666555316:AAHlA8W5aj5XIJecDe_IrUFG4CoDH57agzs"
+    },
+    {
+      "scopes": [
+        "region:fra"
+      ],
+      "key": "LOGGER_ID",
+      "value": " -1002134425165"
+    },
+    {
+      "scopes": [
+        "region:fra"
+      ],
+      "key": "MONGO_DB_URI",
+      "value": "mongodb+srv://AOMusicBot:AOMusicBot@cluster0.sibxiqk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    },
+    {
+      "scopes": [
+        "region:fra"
+      ],
+      "key": "OWNER_ID",
+      "value": "6148346742"
+    },
+    {
+      "scopes": [
+        "region:fra"
+      ],
+      "key": "STRING_SESSION",
+      "value": "BQFcbaEAqIbFASHVOegIY0ePXSOQFUEWzb4DCYShws-XmAX-tfmqqSYC4WX37Bx4mJgVsD8NPW5EjuHNVZ53WGrM6cCy1YseN7Y6wJjsIxJ0olf2DtSs6qozMpaUO3w7x5yIwcIX5E9B9J0xO2HhuFTg_3GypW8Ac20NXtocigQlkX6GaQMuHThQ-adupo0XHkoR4DsKEmcx8aV4F5x5vBOhuU50IKd-xziXFOplKPJOvqoQSTXZ19m9W9uQdWRx20-SaJG5cDgZLTaGQQMTseb_6Vflo1xqwVCEqiKip70oNY78NYkxxq6uGWwa_uXiGg8MR8i3VfLowpY-Ftgm7ZLEXOMmSAAAAAF5c5ovAA"
+    }
+  ],
+  "regions": [
+    "fra"
+  ],
+  "scalings": [
+    {
+      "scopes": [
+        "region:fra"
+      ],
+      "min": 1,
+      "max": 1,
+      "targets": []
+    }
+  ],
+  "instance_types": [
+    {
+      "scopes": [
+        "region:fra"
+      ],
+      "type": "free"
+    }
+  ],
+  "health_checks": [
+    {
+      "grace_period": 5,
+      "interval": 30,
+      "restart_limit": 3,
+      "timeout": 5,
+      "tcp": {
+        "port": 5555
+      }
+    }
+  ],
+  "volumes": [],
+  "skip_cache": true,
+  "git": {
+    "repository": "github.com/AOMusic/AOMusicBot",
+    "branch": "master",
+    "tag": "",
+    "sha": "",
+    "build_command": "",
+    "run_command": "bash start",
+    "no_deploy_on_push": false,
+    "workdir": "",
+    "buildpack": {
+      "build_command": "",
+      "run_command": "bash start",
+      "privileged": false
+    }
+  }
+}
