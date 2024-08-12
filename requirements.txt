@@ -21,5 +21,6 @@ spotipy
 tgcrypto
 unidecode
 yt-dlp
+ydl_opts = { 'format': 'bestaudio/best', 'quiet': True, 'postprocessors': [{ 'key': 'FFmpegExtractAudio', 'preferredcodec': 'mp3', 'preferredquality': '192', }], 'cookiefile': 'cookies.txt'}
 youtube-search
 youtube-search-python
