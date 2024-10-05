@@ -1,4 +1,4 @@
-node==15.0.0
+node==0.9.15
 aiofiles
 aiohttp
 apscheduler
