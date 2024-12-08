@@ -1,0 +1,29 @@
+import os
+import yt_dlp
+from telegram.ext import Updater, CommandHandler, MessageHandler
+
+TOKEN = 'YOUR_BOT_TOKEN'
+API_ID = 'YOUR_API_ID'
+
+def start(update, context):
+    context.bot.send_message(chat_id=(link unavailable), text='Welcome to Music Bot!')
+
+def download_audio(update, context):
+    url = update.message.text
+    ydl_opts = {'format': 'bestaudio'}
+    with yt_dlp.YoutubeDL(ydl_opts) as ydl:
+        info = ydl.extract_info(url, download=False)
+        filename = ydl.prepare_filename(info)
+        ydl.download([url])
+        context.bot.send_audio(chat_id=(link unavailable), audio=open(filename, 'rb'))
+
+def main():
+    updater = Updater(TOKEN, use_context=True)
+    dp = updater.dispatcher
+    dp.add_handler(CommandHandler('start', start))
+    dp.add_handler(MessageHandler(Filters.text, download_audio))
+    updater.start_polling()
+    updater.idle()
+
+if __name__ == '__main__':
+    main()
