@@ -14,12 +14,12 @@ API_HASH = getenv("API_HASH","f400bc1d1baeb9ae93014ce3ee5ea835")
 BOT_TOKEN = getenv("BOT_TOKEN","6666555316:AAHT6ObREaHwIsowFiH2UFd6kkSaRfFFiQs")
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://AOMusicBot:AOMusicBot@cluster0.sibxiqk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI","mongodb+srv://AOMusicBot:AOMusicBot@cluster0.sibxiqk.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "1000"))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", " -1002134425165"))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1002134425165"))
 
 # Get this value from @FallenxBot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID","6148346742"))
