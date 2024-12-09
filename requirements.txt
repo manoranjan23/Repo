@@ -14,4 +14,4 @@ git+https://github.com/yt-dlp/yt-dlp@master
 git+https://github.com/alexmercerind/youtube-search-python@main
 git+https://github.com/joetats/youtube_search@master
 gitpython==3.1.43
-heroku3==5.0.3
+heroku3==5.2.1
