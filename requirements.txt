@@ -6,6 +6,7 @@ pillow==10.2.0
 psutil
 motor
 pytz
+spotipy
 requests
 bs4
 ffmpeg
