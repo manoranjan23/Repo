@@ -10,7 +10,7 @@ requests
 bs4
 ffmpeg
 pyrogram==2.0.106
-py-tgcalls==2.0.5
+py-tgcalls==0.9.7
 python-dotenv==1.0.1
 tgcrypto==1.2.5
 speedtest-cli==2.1.3
