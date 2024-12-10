@@ -1,21 +1,9 @@
-class InvalidFormatException(Exception):
-    """Raised when the format is invalid"""
-    pass
+class AssistantErr(Exception):
+    def __init__(self, errr: str):
+        super().__init__(errr)
 
-class InvalidFileException(Exception):
-    """Raised when the file is invalid"""
-    pass
 
-class InvalidUrlException(Exception):
-    """Raised when the URL is invalid"""
-    pass
-
-class DownloadFailedException(Exception):
-    """Raised when the download fails"""
-    pass
-
-class ConversionFailedException(Exception):
-    """Raised when the conversion fails"""
+class UnableToFetchCarbon(Exception):
     pass
 
 class FFmpegNotInstalledException(Exception):
