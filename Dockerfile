@@ -1,8 +1,8 @@
 FROM nikolaik/python-nodejs:python3.10-nodejs19
 
-RUN apt-get update \
-    && apt-get install -y --no-install-recommends ffmpeg \
-    && apt-get clean \
+RUN yum-get update \
+    && yum-get install -y --no-install-recommends ffmpeg \
+    && yum-get clean \
     && rm -rf /var/lib/apt/lists/*
 
 COPY . /app/
