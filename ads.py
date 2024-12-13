@@ -10,18 +10,12 @@ app = Client("my_bot")
 
 
 Ad settings
-AD_TEXT = "Get exclusive music updates!"
-AD_TITLE = "Music Updates"
-AD_BUTTON_TEXT = "Join Channel"
-AD_URL = "@music_updates"
+AD_TEXT = "Exclusive music updates!"
 GROUP_ID = "YOUR_GROUP_ID"
-
-Ad keyboard
-AD_KEYBOARD = InlineKeyboardMarkup([[InlineKeyboardButton(AD_BUTTON_TEXT, url=AD_URL)]])
 
 Send ad function
 def send_ad(client, message):
-    client.send_message(GROUP_ID, AD_TEXT, reply_markup=AD_KEYBOARD)
+    client.send_message(GROUP_ID, AD_TEXT)
 
 Command handler
 @app.on_message(filters.command('ad'))
