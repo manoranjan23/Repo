@@ -39,8 +39,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/abhijit_135")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/abhijit_135")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/somueditingzone")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/somueditingzone")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -62,7 +62,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT","1073741824"))
 
 
 # Get your pyrogram v2 session from @StringFatherBot on Telegram
-STRING1 = getenv("STRING_SESSION", "BQG0OpUATBCnP31K389yIDuaLxAS02RoWtthhDPGNdULynvM4DmtRLz0Czk4G2SgrXz31Bm5---nWXbrrDEvbjpUK9_TLmP2Sxbb-8QQpPrfYlBa920viixdYx04w0S8LHiGCqup7jBNVF1uYSXgMSpeOmY294hsW0xiRnl-7-h7wHibnGFcMRRDTEIbqoORlINUUudtG-g-A7Ev0ITGV0lxvSrycgmWP1nhiBzhqhJzDYxWuKcvQAAAAGbzo9oAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
@@ -78,18 +78,18 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://envs.sh/L6V.jpg"
+    "START_IMG_URL", "https://envs.sh/JBB.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://envs.sh/Kqv.jpg"
+    "PING_IMG_URL", "https://envs.sh/JZ4.jpg"
 )
-PLAYLIST_IMG_URL = "https://envs.sh/ppU.jpg"
-STATS_IMG_URL = "https://envs.sh/8FC.jpg"
+PLAYLIST_IMG_URL = "https://envs.sh/7wc.jpg"
+STATS_IMG_URL = "https://envs.sh/A3u.jpg"
 TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
 STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
 SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
+YOUTUBE_IMG_URL = "https://envs.sh/rKZ.jpg"
 SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
 SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
 SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
