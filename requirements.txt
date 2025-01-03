@@ -16,3 +16,6 @@ beautifulsoup4==4.11.1
 gitpython==3.1.27
 spotipy==2.24.0
 heroku3
+hachoir
+dnspython
+gitpython
