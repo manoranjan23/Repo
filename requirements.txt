@@ -19,7 +19,6 @@ heroku3
 hachoir
 dnspython
 gitpython
-
 aiofiles
 aiohttp
 asyncio
